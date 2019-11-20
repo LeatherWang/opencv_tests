@@ -1,0 +1,18 @@
+%YAML:1.0
+    
+# fisheye camera calibration and distortion parameters (OpenCV)
+# Camera Number: ./camera_fisheye_ankobot.yaml
+# calibration time: 2019/01/30-15:14
+camera_name: camera
+image_width: 520
+image_height: 520
+distortion_parameters:
+   k1: -0.0843933650174
+   k2: 0.0493536855385
+   p1: -0.0489786338125
+   p2: 0.0153370315976
+projection_parameters:
+   fx: 191.585746639
+   fy: 191.760961862
+   cx: 248.74032212
+   cy: 233.231490037

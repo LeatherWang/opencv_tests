@@ -1,0 +1,24 @@
+%YAML:1.0
+    
+# Camera calibration and distortion parameters (OpenCV)
+# Camera Number: ./camera.yaml
+Camera.width: 1280
+Camera.height: 720
+Camera.fx: 709.134004522096
+Camera.fy: 708.833915659266
+Camera.cx: 633.116224229619
+Camera.cy: 381.184796276717
+Camera.k1: -0.009402030196
+Camera.k2: 0.002049091622
+Camera.p1: -0.013760304386
+Camera.p2: 0.009347491612
+
+Camera.Model: fisheye
+Camera.fps: 10.0  # Camera frames per second
+Camera.cameraLatency: 0.02
+
+# camera-imu frame transformation, Pi = Tbc * Pc
+Camera.Tbc:
+ [-1,0,0,0,
+  0,-1,0,0,
+  0,0,1,0]

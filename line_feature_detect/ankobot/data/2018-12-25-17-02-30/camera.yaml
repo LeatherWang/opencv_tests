@@ -1,0 +1,20 @@
+%YAML:1.0
+    
+# Camera calibration and distortion parameters (OpenCV)
+# Camera Number: 026/
+Camera.width: 640
+Camera.height: 360
+Camera.fx: 246.993
+Camera.fy: 246.949
+Camera.cx: 314.197
+Camera.cy: 168.03
+Camera.k1: 0.42854
+Camera.k2: 0.132248
+Camera.p1: -0.405565
+Camera.p2: 0.152755
+    
+# camera-imu frame transformation, Pi = Tbc * Pc 
+Camera.Tbc:
+ [1,0,0,99,
+  0,1,0,-20,
+  0,0,1,0]

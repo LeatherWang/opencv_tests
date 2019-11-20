@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/mat/mymat.cpp
+istream
+-
+sstream
+-
+algorithm
+-
+mymat.h
+/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/mat/mymat.h
+
+/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/mat/mymat.h
+iostream
+-
+ostream
+-
+vector
+-
+cstring
+-
+cassert
+-
+

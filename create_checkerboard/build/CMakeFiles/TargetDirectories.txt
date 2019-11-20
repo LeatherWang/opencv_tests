@@ -1,0 +1,4 @@
+/home/leather/leather_repertory/opencv_test/create_checkerboard/build/CMakeFiles/edit_cache.dir
+/home/leather/leather_repertory/opencv_test/create_checkerboard/build/CMakeFiles/create_checkerboard_A4.dir
+/home/leather/leather_repertory/opencv_test/create_checkerboard/build/CMakeFiles/rebuild_cache.dir
+/home/leather/leather_repertory/opencv_test/create_checkerboard/build/CMakeFiles/create_checkerboard.dir

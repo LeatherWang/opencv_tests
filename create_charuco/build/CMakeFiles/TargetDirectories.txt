@@ -1,0 +1,4 @@
+/home/leather/leather_repertory/opencv_test/create_charuco/build/CMakeFiles/rebuild_cache.dir
+/home/leather/leather_repertory/opencv_test/create_charuco/build/CMakeFiles/detect_aruco.dir
+/home/leather/leather_repertory/opencv_test/create_charuco/build/CMakeFiles/edit_cache.dir
+/home/leather/leather_repertory/opencv_test/create_charuco/build/CMakeFiles/create_charuco.dir

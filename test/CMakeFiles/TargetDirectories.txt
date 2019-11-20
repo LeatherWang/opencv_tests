@@ -1,0 +1,3 @@
+/home/leather/leather_repertory/leather_tests/opencv_test/test/CMakeFiles/rebuild_cache.dir
+/home/leather/leather_repertory/leather_tests/opencv_test/test/CMakeFiles/edit_cache.dir
+/home/leather/leather_repertory/leather_tests/opencv_test/test/CMakeFiles/test.dir

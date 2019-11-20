@@ -1,0 +1,1542 @@
+Default not to use small wheel
+configuration parameters: 
+LoadPlanSettings, 554, plan_config.log_level                  = 1
+LoadPlanSettings, 555, plan_config.sleep_time                 = 300
+LoadPlanSettings, 556, plan_config.sleep_time_on_charger      = 30
+LoadPlanSettings, 557, plan_config.wall_mode_side_brush_level = 2
+LoadPlanSettings, 558, plan_config.low_battery_to_dock        = 15
+LoadPlanSettings, 559, plan_config.low_battery_no_dock        = 3
+LoadPlanSettings, 560, plan_config.low_battery_reenable_work  = 20
+LoadPlanSettings, 561, plan_config.dust_box_configured        = 0
+LoadPlanSettings, 562, plan_config.water_tank_configured      = 1
+LoadPlanSettings, 563, plan_config.force_plate_no_error       = 0
+LoadPlanSettings, 564, plan_config.manual_mode_backward_speed = -20
+LoadPlanSettings, 565, plan_config.manual_mode_backward_speed = -20
+LoadPlanSettings, 566, plan_config.manufacture_test_minites   = 20
+
+
+
+
+start navi_plan process @ 1545730669.368595
+Recovery = 1, @ 1545730669.368811
+517, data_robot.test_program_portal = 0
+upstation_initialized, 1887, ret = 0
+[UserInterface: 536, data_robot.signal_charge = 0, data_robot.plate_mode = 80
+[ #### update device status: AnkoPlanInit, 396] action status: 0,  direction: 0,  power:0,  fan_power_level:0,  new_map_count: 0,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0
+****************** GRIDMAP INIT *******************
+****************** GRIDMAP INIT *******************
+****************** GRIDMAP INIT *******************
+****************** GRIDMAP INIT *******************
+thread_navi_plan, 632, data_robot.test_program_portal = 0
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730669.891237, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730669.916386, recv_flag = 0
+control_sensor_program, 317, 1545730669.916445, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730669.941551, recv_flag = 0
+control_sensor_program, 317, 1545730669.941633, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730669.966729, recv_flag = 0
+control_sensor_program, 317, 1545730669.966763, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730669.992466, recv_flag = 0
+control_sensor_program, 317, 1545730669.992576, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730670.17696, recv_flag = 0
+control_sensor_program, 317, 1545730670.17786, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730670.42884, recv_flag = 0
+control_sensor_program, 317, 1545730670.42936, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730670.68066, recv_flag = 0
+control_sensor_program, 317, 1545730670.68169, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730670.93269, recv_flag = 0
+control_sensor_program, 317, 1545730670.93329, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730670.118603, recv_flag = 0
+control_sensor_program, 317, 1545730670.118688, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730670.143796, recv_flag = 0
+control_sensor_program, 317, 1545730670.143869, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730670.168941, recv_flag = 0
+control_sensor_program, 317, 1545730670.168982, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730670.194100, recv_flag = 0
+control_sensor_program, 317, 1545730670.194189, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730670.219288, recv_flag = 0
+control_sensor_program, 317, 1545730670.219350, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730670.244461, recv_flag = 0
+control_sensor_program, 317, 1545730670.244540, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730670.269646, recv_flag = 0
+control_sensor_program, 317, 1545730670.269727, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730670.294836, recv_flag = 0
+control_sensor_program, 317, 1545730670.294911, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730670.320070, recv_flag = 0
+control_sensor_program, 317, 1545730670.320176, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730670.345292, recv_flag = 0
+control_sensor_program, 317, 1545730670.345355, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730670.370452, recv_flag = 0
+control_sensor_program, 317, 1545730670.370504, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730670.395584, recv_flag = 0
+control_sensor_program, 317, 1545730670.395694, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+thread_navi_plan, 806, plan_config.sleep_time=300, plan_config.sleep_time_on_charger = 30
+[UserInterface: 918, 1545730670.408414, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_NONE, pre_auto_status:0, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:0,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730670.408526
+[UserInterface: 925, 1545730670.408547, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_NONE, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+update_app_power_consumption, 4753] power_consumption: 71, t = 1545730670.408668
+control_sensor_program, 317, 1545730676.20249, _robo_mode = 0, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.45403, recv_flag = 0
+control_sensor_program, 317, 1545730676.45460, _robo_mode = 0, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.70640, recv_flag = 0
+control_sensor_program, 317, 1545730676.70823, _robo_mode = 0, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.95956, recv_flag = 0
+control_sensor_program, 317, 1545730676.96019, _robo_mode = 0, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.121131, recv_flag = 0
+control_sensor_program, 317, 1545730676.124420, _robo_mode = 0, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.149536, recv_flag = 0
+control_sensor_program, 317, 1545730676.149617, _robo_mode = 0, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.174718, recv_flag = 0
+control_sensor_program, 317, 1545730676.174777, _robo_mode = 0, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.199839, recv_flag = 0
+control_sensor_program, 317, 1545730676.199917, _robo_mode = 0, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.225024, recv_flag = 0
+control_sensor_program, 317, 1545730676.225111, _robo_mode = 0, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.250207, recv_flag = 0
+control_sensor_program, 317, 1545730676.250267, _robo_mode = 0, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.275367, recv_flag = 0
+control_sensor_program, 317, 1545730676.275457, _robo_mode = 0, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.300558, recv_flag = 0
+control_sensor_program, 317, 1545730676.300628, _robo_mode = 0, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.325747, recv_flag = 0
+control_sensor_program, 317, 1545730676.325845, _robo_mode = 0, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.350956, recv_flag = 0
+control_sensor_program, 317, 1545730676.351009, _robo_mode = 0, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.376107, recv_flag = 0
+control_sensor_program, 317, 1545730676.376146, _robo_mode = 0, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.401257, recv_flag = 0
+control_sensor_program, 317, 1545730676.401331, _robo_mode = 0, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.426438, recv_flag = 0
+control_sensor_program, 317, 1545730676.426512, _robo_mode = 0, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.451610, recv_flag = 0
+control_sensor_program, 317, 1545730676.451697, _robo_mode = 0, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.476766, recv_flag = 0
+control_sensor_program, 317, 1545730676.476842, _robo_mode = 0, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.501928, recv_flag = 0
+control_sensor_program, 317, 1545730676.501975, _robo_mode = 0, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730676.527094, recv_flag = 0
+control_sensor_program, 317, 1545730676.527183, _robo_mode = 0, try_times = 21
+[UserInterface: thread_navi_plan,1368, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730676.533601
+[UserInterface: 918, 1545730676.533640, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_FORWARD, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 0,  power:71,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730676.533710
+[UserInterface: 925, 1545730676.533729, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_FORWARD, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+update_app_power_consumption, 4753] power_consumption: 70, t = 1545730686.256026
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730701.148634
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730701.172033, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.197133, recv_flag = 0
+control_sensor_program, 317, 1545730701.197194, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.222297, recv_flag = 0
+control_sensor_program, 317, 1545730701.222407, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.247516, recv_flag = 0
+control_sensor_program, 317, 1545730701.247575, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.272688, recv_flag = 0
+control_sensor_program, 317, 1545730701.272772, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.297876, recv_flag = 0
+control_sensor_program, 317, 1545730701.297972, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.323124, recv_flag = 0
+control_sensor_program, 317, 1545730701.323185, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.348327, recv_flag = 0
+control_sensor_program, 317, 1545730701.348507, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.373623, recv_flag = 0
+control_sensor_program, 317, 1545730701.373690, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.398785, recv_flag = 0
+control_sensor_program, 317, 1545730701.398839, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.423987, recv_flag = 0
+control_sensor_program, 317, 1545730701.424093, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.449202, recv_flag = 0
+control_sensor_program, 317, 1545730701.449262, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.474387, recv_flag = 0
+control_sensor_program, 317, 1545730701.474481, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.499590, recv_flag = 0
+control_sensor_program, 317, 1545730701.499655, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.524762, recv_flag = 0
+control_sensor_program, 317, 1545730701.524819, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.549931, recv_flag = 0
+control_sensor_program, 317, 1545730701.550096, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.575224, recv_flag = 0
+control_sensor_program, 317, 1545730701.575294, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.600361, recv_flag = 0
+control_sensor_program, 317, 1545730701.600402, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.625509, recv_flag = 0
+control_sensor_program, 317, 1545730701.625590, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.650691, recv_flag = 0
+control_sensor_program, 317, 1545730701.650760, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730701.675872, recv_flag = 0
+control_sensor_program, 317, 1545730701.675932, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730701.688879, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:70,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730701.688985
+[UserInterface: 925, 1545730701.689007, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1464, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730701.894172
+[UserInterface: 918, 1545730701.908439, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_RIGHT_ROTATE, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 2,  power:70,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730701.908547
+[UserInterface: 925, 1545730701.908569, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_RIGHT_ROTATE, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730703.286228
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730703.308310, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.333450, recv_flag = 0
+control_sensor_program, 317, 1545730703.333494, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.358616, recv_flag = 0
+control_sensor_program, 317, 1545730703.358738, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.383822, recv_flag = 0
+control_sensor_program, 317, 1545730703.383886, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.409000, recv_flag = 0
+control_sensor_program, 317, 1545730703.409100, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.434228, recv_flag = 0
+control_sensor_program, 317, 1545730703.434302, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.459484, recv_flag = 0
+control_sensor_program, 317, 1545730703.459543, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.484667, recv_flag = 0
+control_sensor_program, 317, 1545730703.484796, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.509901, recv_flag = 0
+control_sensor_program, 317, 1545730703.509957, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.535119, recv_flag = 0
+control_sensor_program, 317, 1545730703.535157, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.560258, recv_flag = 0
+control_sensor_program, 317, 1545730703.560303, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.585512, recv_flag = 0
+control_sensor_program, 317, 1545730703.585582, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.610688, recv_flag = 0
+control_sensor_program, 317, 1545730703.610776, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.635894, recv_flag = 0
+control_sensor_program, 317, 1545730703.635966, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.661067, recv_flag = 0
+control_sensor_program, 317, 1545730703.661128, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.686263, recv_flag = 0
+control_sensor_program, 317, 1545730703.686397, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.711523, recv_flag = 0
+control_sensor_program, 317, 1545730703.711576, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.736757, recv_flag = 0
+control_sensor_program, 317, 1545730703.736848, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.761951, recv_flag = 0
+control_sensor_program, 317, 1545730703.761995, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.787091, recv_flag = 0
+control_sensor_program, 317, 1545730703.787160, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730703.812266, recv_flag = 0
+control_sensor_program, 317, 1545730703.812327, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730703.825367, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:70,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730703.825459
+[UserInterface: 925, 1545730703.825481, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+control_sensor_program, 317, 1545730704.111899, _robo_mode = 0, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.138530, recv_flag = 0
+control_sensor_program, 317, 1545730704.138621, _robo_mode = 0, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.163742, recv_flag = 0
+control_sensor_program, 317, 1545730704.163802, _robo_mode = 0, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.188867, recv_flag = 0
+control_sensor_program, 317, 1545730704.188927, _robo_mode = 0, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.214037, recv_flag = 0
+control_sensor_program, 317, 1545730704.214084, _robo_mode = 0, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.239185, recv_flag = 0
+control_sensor_program, 317, 1545730704.239258, _robo_mode = 0, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.264375, recv_flag = 0
+control_sensor_program, 317, 1545730704.264431, _robo_mode = 0, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.289556, recv_flag = 0
+control_sensor_program, 317, 1545730704.289636, _robo_mode = 0, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.314737, recv_flag = 0
+control_sensor_program, 317, 1545730704.314781, _robo_mode = 0, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.339888, recv_flag = 0
+control_sensor_program, 317, 1545730704.339981, _robo_mode = 0, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.365087, recv_flag = 0
+control_sensor_program, 317, 1545730704.365131, _robo_mode = 0, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.390239, recv_flag = 0
+control_sensor_program, 317, 1545730704.390297, _robo_mode = 0, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.415400, recv_flag = 0
+control_sensor_program, 317, 1545730704.415450, _robo_mode = 0, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.440531, recv_flag = 0
+control_sensor_program, 317, 1545730704.440609, _robo_mode = 0, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.465703, recv_flag = 0
+control_sensor_program, 317, 1545730704.465754, _robo_mode = 0, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.490865, recv_flag = 0
+control_sensor_program, 317, 1545730704.490946, _robo_mode = 0, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.516047, recv_flag = 0
+control_sensor_program, 317, 1545730704.516096, _robo_mode = 0, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.541234, recv_flag = 0
+control_sensor_program, 317, 1545730704.541339, _robo_mode = 0, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.566444, recv_flag = 0
+control_sensor_program, 317, 1545730704.566493, _robo_mode = 0, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.591594, recv_flag = 0
+control_sensor_program, 317, 1545730704.591668, _robo_mode = 0, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730704.616793, recv_flag = 0
+control_sensor_program, 317, 1545730704.616949, _robo_mode = 0, try_times = 21
+[UserInterface: thread_navi_plan,1368, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730704.623329
+[UserInterface: 918, 1545730704.623367, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_FORWARD, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 0,  power:70,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730704.623448
+[UserInterface: 925, 1545730704.623470, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_FORWARD, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730712.194214
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730712.220588, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.245796, recv_flag = 0
+control_sensor_program, 317, 1545730712.245991, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.271102, recv_flag = 0
+control_sensor_program, 317, 1545730712.271165, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.296268, recv_flag = 0
+control_sensor_program, 317, 1545730712.296388, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.321443, recv_flag = 0
+control_sensor_program, 317, 1545730712.321500, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.346565, recv_flag = 0
+control_sensor_program, 317, 1545730712.346644, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.371752, recv_flag = 0
+control_sensor_program, 317, 1545730712.371810, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.396927, recv_flag = 0
+control_sensor_program, 317, 1545730712.396990, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.422096, recv_flag = 0
+control_sensor_program, 317, 1545730712.422167, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.447273, recv_flag = 0
+control_sensor_program, 317, 1545730712.447330, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.472421, recv_flag = 0
+control_sensor_program, 317, 1545730712.472469, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.497554, recv_flag = 0
+control_sensor_program, 317, 1545730712.497672, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.522752, recv_flag = 0
+control_sensor_program, 317, 1545730712.522822, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.547929, recv_flag = 0
+control_sensor_program, 317, 1545730712.548009, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.573072, recv_flag = 0
+control_sensor_program, 317, 1545730712.573153, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.598227, recv_flag = 0
+control_sensor_program, 317, 1545730712.598298, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.623407, recv_flag = 0
+control_sensor_program, 317, 1545730712.623480, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.648589, recv_flag = 0
+control_sensor_program, 317, 1545730712.648679, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.673803, recv_flag = 0
+control_sensor_program, 317, 1545730712.673892, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.698976, recv_flag = 0
+control_sensor_program, 317, 1545730712.699061, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730712.724131, recv_flag = 0
+control_sensor_program, 317, 1545730712.724214, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730712.736816, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:70,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730712.736905
+[UserInterface: 925, 1545730712.736933, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1427, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730713.60731
+[UserInterface: 918, 1545730713.76448, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_LEFT_ROTATE, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 1,  power:70,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730713.76611
+[UserInterface: 925, 1545730713.76650, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_LEFT_ROTATE, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730714.454628
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730714.479852, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.505017, recv_flag = 0
+control_sensor_program, 317, 1545730714.505093, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.530193, recv_flag = 0
+control_sensor_program, 317, 1545730714.530249, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.555357, recv_flag = 0
+control_sensor_program, 317, 1545730714.555396, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.580503, recv_flag = 0
+control_sensor_program, 317, 1545730714.580646, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.605770, recv_flag = 0
+control_sensor_program, 317, 1545730714.605818, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.631494, recv_flag = 0
+control_sensor_program, 317, 1545730714.631751, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.656896, recv_flag = 0
+control_sensor_program, 317, 1545730714.656961, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.682076, recv_flag = 0
+control_sensor_program, 317, 1545730714.682155, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.707269, recv_flag = 0
+control_sensor_program, 317, 1545730714.707372, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.732470, recv_flag = 0
+control_sensor_program, 317, 1545730714.732524, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.757643, recv_flag = 0
+control_sensor_program, 317, 1545730714.757688, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.782785, recv_flag = 0
+control_sensor_program, 317, 1545730714.782860, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.807945, recv_flag = 0
+control_sensor_program, 317, 1545730714.808030, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.833156, recv_flag = 0
+control_sensor_program, 317, 1545730714.833283, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.858382, recv_flag = 0
+control_sensor_program, 317, 1545730714.858447, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.883568, recv_flag = 0
+control_sensor_program, 317, 1545730714.883656, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.908729, recv_flag = 0
+control_sensor_program, 317, 1545730714.908810, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.933907, recv_flag = 0
+control_sensor_program, 317, 1545730714.933956, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.959065, recv_flag = 0
+control_sensor_program, 317, 1545730714.959115, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730714.984224, recv_flag = 0
+control_sensor_program, 317, 1545730714.984312, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730714.996914, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:70,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730714.997006
+[UserInterface: 925, 1545730714.997027, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+control_sensor_program, 317, 1545730715.105756, _robo_mode = 0, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.130927, recv_flag = 0
+control_sensor_program, 317, 1545730715.131006, _robo_mode = 0, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.156111, recv_flag = 0
+control_sensor_program, 317, 1545730715.156168, _robo_mode = 0, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.181229, recv_flag = 0
+control_sensor_program, 317, 1545730715.181302, _robo_mode = 0, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.206376, recv_flag = 0
+control_sensor_program, 317, 1545730715.206421, _robo_mode = 0, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.231539, recv_flag = 0
+control_sensor_program, 317, 1545730715.231622, _robo_mode = 0, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.256746, recv_flag = 0
+control_sensor_program, 317, 1545730715.256805, _robo_mode = 0, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.281877, recv_flag = 0
+control_sensor_program, 317, 1545730715.282034, _robo_mode = 0, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.307155, recv_flag = 0
+control_sensor_program, 317, 1545730715.307226, _robo_mode = 0, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.332293, recv_flag = 0
+control_sensor_program, 317, 1545730715.332349, _robo_mode = 0, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.357494, recv_flag = 0
+control_sensor_program, 317, 1545730715.357743, _robo_mode = 0, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.382890, recv_flag = 0
+control_sensor_program, 317, 1545730715.382954, _robo_mode = 0, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.408102, recv_flag = 0
+control_sensor_program, 317, 1545730715.408182, _robo_mode = 0, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.433289, recv_flag = 0
+control_sensor_program, 317, 1545730715.433368, _robo_mode = 0, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.458468, recv_flag = 0
+control_sensor_program, 317, 1545730715.458508, _robo_mode = 0, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.483613, recv_flag = 0
+control_sensor_program, 317, 1545730715.483685, _robo_mode = 0, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.508790, recv_flag = 0
+control_sensor_program, 317, 1545730715.508861, _robo_mode = 0, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.533960, recv_flag = 0
+control_sensor_program, 317, 1545730715.534035, _robo_mode = 0, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.559130, recv_flag = 0
+control_sensor_program, 317, 1545730715.559260, _robo_mode = 0, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.584381, recv_flag = 0
+control_sensor_program, 317, 1545730715.584439, _robo_mode = 0, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730715.609607, recv_flag = 0
+control_sensor_program, 317, 1545730715.609700, _robo_mode = 0, try_times = 21
+[UserInterface: thread_navi_plan,1368, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730715.616099
+[UserInterface: 918, 1545730715.616153, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_FORWARD, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 0,  power:70,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730715.616230
+[UserInterface: 925, 1545730715.616253, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_FORWARD, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730738.446528
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730738.468254, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.493344, recv_flag = 0
+control_sensor_program, 317, 1545730738.493421, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.518523, recv_flag = 0
+control_sensor_program, 317, 1545730738.518616, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.543731, recv_flag = 0
+control_sensor_program, 317, 1545730738.543799, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.568954, recv_flag = 0
+control_sensor_program, 317, 1545730738.569114, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.594253, recv_flag = 0
+control_sensor_program, 317, 1545730738.594324, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.619444, recv_flag = 0
+control_sensor_program, 317, 1545730738.619513, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.644596, recv_flag = 0
+control_sensor_program, 317, 1545730738.644670, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.669719, recv_flag = 0
+control_sensor_program, 317, 1545730738.669768, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.694877, recv_flag = 0
+control_sensor_program, 317, 1545730738.694968, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.720129, recv_flag = 0
+control_sensor_program, 317, 1545730738.720189, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.745290, recv_flag = 0
+control_sensor_program, 317, 1545730738.745356, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.770545, recv_flag = 0
+control_sensor_program, 317, 1545730738.770639, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.795744, recv_flag = 0
+control_sensor_program, 317, 1545730738.795826, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.820951, recv_flag = 0
+control_sensor_program, 317, 1545730738.821080, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.846203, recv_flag = 0
+control_sensor_program, 317, 1545730738.846248, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.871343, recv_flag = 0
+control_sensor_program, 317, 1545730738.871382, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.896512, recv_flag = 0
+control_sensor_program, 317, 1545730738.896600, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.921715, recv_flag = 0
+control_sensor_program, 317, 1545730738.921817, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.946918, recv_flag = 0
+control_sensor_program, 317, 1545730738.946979, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730738.972293, recv_flag = 0
+control_sensor_program, 317, 1545730738.972342, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730738.984861, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:70,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730738.984945
+[UserInterface: 925, 1545730738.984965, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1427, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730739.228760
+[UserInterface: 918, 1545730739.244369, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_LEFT_ROTATE, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 1,  power:70,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730739.244465
+[UserInterface: 925, 1545730739.244488, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_LEFT_ROTATE, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730740.383724
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730740.404881, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.430023, recv_flag = 0
+control_sensor_program, 317, 1545730740.430098, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.455205, recv_flag = 0
+control_sensor_program, 317, 1545730740.455297, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.480391, recv_flag = 0
+control_sensor_program, 317, 1545730740.480422, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.505527, recv_flag = 0
+control_sensor_program, 317, 1545730740.505621, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.530703, recv_flag = 0
+control_sensor_program, 317, 1545730740.530787, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.555885, recv_flag = 0
+control_sensor_program, 317, 1545730740.555989, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.581135, recv_flag = 0
+control_sensor_program, 317, 1545730740.581169, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.606386, recv_flag = 0
+control_sensor_program, 317, 1545730740.606535, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.631680, recv_flag = 0
+control_sensor_program, 317, 1545730740.631843, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.656979, recv_flag = 0
+control_sensor_program, 317, 1545730740.657038, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.682132, recv_flag = 0
+control_sensor_program, 317, 1545730740.682162, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.707736, recv_flag = 0
+control_sensor_program, 317, 1545730740.707810, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.732914, recv_flag = 0
+control_sensor_program, 317, 1545730740.732979, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.758095, recv_flag = 0
+control_sensor_program, 317, 1545730740.758173, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.783299, recv_flag = 0
+control_sensor_program, 317, 1545730740.783338, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.808455, recv_flag = 0
+control_sensor_program, 317, 1545730740.808536, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.833659, recv_flag = 0
+control_sensor_program, 317, 1545730740.833743, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.858823, recv_flag = 0
+control_sensor_program, 317, 1545730740.858892, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.883985, recv_flag = 0
+control_sensor_program, 317, 1545730740.884017, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730740.909109, recv_flag = 0
+control_sensor_program, 317, 1545730740.909181, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730740.921692, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:70,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730740.921771
+[UserInterface: 925, 1545730740.921792, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+control_sensor_program, 317, 1545730741.308515, _robo_mode = 0, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.333682, recv_flag = 0
+control_sensor_program, 317, 1545730741.333764, _robo_mode = 0, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.358918, recv_flag = 0
+control_sensor_program, 317, 1545730741.359088, _robo_mode = 0, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.384217, recv_flag = 0
+control_sensor_program, 317, 1545730741.384291, _robo_mode = 0, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.409391, recv_flag = 0
+control_sensor_program, 317, 1545730741.409463, _robo_mode = 0, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.434660, recv_flag = 0
+control_sensor_program, 317, 1545730741.434800, _robo_mode = 0, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.459895, recv_flag = 0
+control_sensor_program, 317, 1545730741.459942, _robo_mode = 0, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.485022, recv_flag = 0
+control_sensor_program, 317, 1545730741.485070, _robo_mode = 0, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.510174, recv_flag = 0
+control_sensor_program, 317, 1545730741.510265, _robo_mode = 0, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.535368, recv_flag = 0
+control_sensor_program, 317, 1545730741.535441, _robo_mode = 0, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.561425, recv_flag = 0
+control_sensor_program, 317, 1545730741.561514, _robo_mode = 0, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.586631, recv_flag = 0
+control_sensor_program, 317, 1545730741.586700, _robo_mode = 0, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.611961, recv_flag = 0
+control_sensor_program, 317, 1545730741.612037, _robo_mode = 0, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.637150, recv_flag = 0
+control_sensor_program, 317, 1545730741.637232, _robo_mode = 0, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.662307, recv_flag = 0
+control_sensor_program, 317, 1545730741.662371, _robo_mode = 0, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.690744, recv_flag = 0
+control_sensor_program, 317, 1545730741.690779, _robo_mode = 0, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.715888, recv_flag = 0
+control_sensor_program, 317, 1545730741.715955, _robo_mode = 0, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.741050, recv_flag = 0
+control_sensor_program, 317, 1545730741.741142, _robo_mode = 0, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.766256, recv_flag = 0
+control_sensor_program, 317, 1545730741.766746, _robo_mode = 0, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.791847, recv_flag = 0
+control_sensor_program, 317, 1545730741.791879, _robo_mode = 0, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730741.816979, recv_flag = 0
+control_sensor_program, 317, 1545730741.817049, _robo_mode = 0, try_times = 21
+[UserInterface: thread_navi_plan,1368, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730741.823499
+[UserInterface: 918, 1545730741.823587, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_FORWARD, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 0,  power:70,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730741.823683
+[UserInterface: 925, 1545730741.823707, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_FORWARD, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730747.620168
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730747.644853, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730747.670004, recv_flag = 0
+control_sensor_program, 317, 1545730747.670093, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730747.695212, recv_flag = 0
+control_sensor_program, 317, 1545730747.695338, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730747.720455, recv_flag = 0
+control_sensor_program, 317, 1545730747.720510, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730747.745610, recv_flag = 0
+control_sensor_program, 317, 1545730747.745658, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730747.770818, recv_flag = 0
+control_sensor_program, 317, 1545730747.771063, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730747.796199, recv_flag = 0
+control_sensor_program, 317, 1545730747.796291, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730747.821401, recv_flag = 0
+control_sensor_program, 317, 1545730747.821462, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730747.846572, recv_flag = 0
+control_sensor_program, 317, 1545730747.846646, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730747.871763, recv_flag = 0
+control_sensor_program, 317, 1545730747.871826, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730747.896953, recv_flag = 0
+control_sensor_program, 317, 1545730747.897039, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730747.922303, recv_flag = 0
+control_sensor_program, 317, 1545730747.922382, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730747.947487, recv_flag = 0
+control_sensor_program, 317, 1545730747.947536, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730747.972643, recv_flag = 0
+control_sensor_program, 317, 1545730747.972729, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730747.997823, recv_flag = 0
+control_sensor_program, 317, 1545730747.997873, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.22968, recv_flag = 0
+control_sensor_program, 317, 1545730748.23020, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.48123, recv_flag = 0
+control_sensor_program, 317, 1545730748.48163, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.73245, recv_flag = 0
+control_sensor_program, 317, 1545730748.73315, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.98431, recv_flag = 0
+control_sensor_program, 317, 1545730748.98552, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.123633, recv_flag = 0
+control_sensor_program, 317, 1545730748.123706, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.148773, recv_flag = 0
+control_sensor_program, 317, 1545730748.148830, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730748.164604, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:70,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730748.164686
+[UserInterface: 925, 1545730748.164714, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1427, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730748.248706
+[UserInterface: 918, 1545730748.264346, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_LEFT_ROTATE, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 1,  power:70,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730748.264428
+[UserInterface: 925, 1545730748.264449, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_LEFT_ROTATE, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730748.604316
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730748.630399, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.655569, recv_flag = 0
+control_sensor_program, 317, 1545730748.655656, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.680724, recv_flag = 0
+control_sensor_program, 317, 1545730748.680785, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.705944, recv_flag = 0
+control_sensor_program, 317, 1545730748.706086, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.731207, recv_flag = 0
+control_sensor_program, 317, 1545730748.731262, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.756370, recv_flag = 0
+control_sensor_program, 317, 1545730748.756432, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.781550, recv_flag = 0
+control_sensor_program, 317, 1545730748.781635, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.806719, recv_flag = 0
+control_sensor_program, 317, 1545730748.806779, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.831892, recv_flag = 0
+control_sensor_program, 317, 1545730748.831971, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.857080, recv_flag = 0
+control_sensor_program, 317, 1545730748.857138, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.882191, recv_flag = 0
+control_sensor_program, 317, 1545730748.882249, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.907363, recv_flag = 0
+control_sensor_program, 317, 1545730748.907444, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.932545, recv_flag = 0
+control_sensor_program, 317, 1545730748.932603, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.957703, recv_flag = 0
+control_sensor_program, 317, 1545730748.957738, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730748.982848, recv_flag = 0
+control_sensor_program, 317, 1545730748.982922, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730749.8028, recv_flag = 0
+control_sensor_program, 317, 1545730749.8114, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730749.33258, recv_flag = 0
+control_sensor_program, 317, 1545730749.33450, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730749.58594, recv_flag = 0
+control_sensor_program, 317, 1545730749.58647, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730749.83740, recv_flag = 0
+control_sensor_program, 317, 1545730749.83797, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730749.108858, recv_flag = 0
+control_sensor_program, 317, 1545730749.108941, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730749.134001, recv_flag = 0
+control_sensor_program, 317, 1545730749.134035, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730749.146643, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:70,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730749.146732
+[UserInterface: 925, 1545730749.146753, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+control_sensor_program, 317, 1545730750.54365, _robo_mode = 0, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.79498, recv_flag = 0
+control_sensor_program, 317, 1545730750.79577, _robo_mode = 0, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.104826, recv_flag = 0
+control_sensor_program, 317, 1545730750.104950, _robo_mode = 0, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.130065, recv_flag = 0
+control_sensor_program, 317, 1545730750.130131, _robo_mode = 0, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.155226, recv_flag = 0
+control_sensor_program, 317, 1545730750.155258, _robo_mode = 0, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.180362, recv_flag = 0
+control_sensor_program, 317, 1545730750.180450, _robo_mode = 0, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.205548, recv_flag = 0
+control_sensor_program, 317, 1545730750.205598, _robo_mode = 0, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.230707, recv_flag = 0
+control_sensor_program, 317, 1545730750.230794, _robo_mode = 0, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.255885, recv_flag = 0
+control_sensor_program, 317, 1545730750.255930, _robo_mode = 0, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.280984, recv_flag = 0
+control_sensor_program, 317, 1545730750.281037, _robo_mode = 0, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.306171, recv_flag = 0
+control_sensor_program, 317, 1545730750.306268, _robo_mode = 0, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.331372, recv_flag = 0
+control_sensor_program, 317, 1545730750.331445, _robo_mode = 0, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.356536, recv_flag = 0
+control_sensor_program, 317, 1545730750.356567, _robo_mode = 0, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.381678, recv_flag = 0
+control_sensor_program, 317, 1545730750.381724, _robo_mode = 0, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.406828, recv_flag = 0
+control_sensor_program, 317, 1545730750.406886, _robo_mode = 0, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.432001, recv_flag = 0
+control_sensor_program, 317, 1545730750.432095, _robo_mode = 0, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.457211, recv_flag = 0
+control_sensor_program, 317, 1545730750.457254, _robo_mode = 0, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.482351, recv_flag = 0
+control_sensor_program, 317, 1545730750.482413, _robo_mode = 0, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.507625, recv_flag = 0
+control_sensor_program, 317, 1545730750.507725, _robo_mode = 0, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.532837, recv_flag = 0
+control_sensor_program, 317, 1545730750.532925, _robo_mode = 0, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730750.558022, recv_flag = 0
+control_sensor_program, 317, 1545730750.558056, _robo_mode = 0, try_times = 21
+[UserInterface: thread_navi_plan,1368, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730750.564480
+[UserInterface: 918, 1545730750.564519, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_FORWARD, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 0,  power:70,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730750.564602
+[UserInterface: 925, 1545730750.564623, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_FORWARD, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+update_app_power_consumption, 4753] power_consumption: 69, t = 1545730765.280126
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730766.937259
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730766.958712, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730766.983879, recv_flag = 0
+control_sensor_program, 317, 1545730766.984059, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.9182, recv_flag = 0
+control_sensor_program, 317, 1545730767.9261, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.34471, recv_flag = 0
+control_sensor_program, 317, 1545730767.34588, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.59696, recv_flag = 0
+control_sensor_program, 317, 1545730767.59753, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.84878, recv_flag = 0
+control_sensor_program, 317, 1545730767.84934, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.110040, recv_flag = 0
+control_sensor_program, 317, 1545730767.110123, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.135202, recv_flag = 0
+control_sensor_program, 317, 1545730767.135286, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.160387, recv_flag = 0
+control_sensor_program, 317, 1545730767.160426, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.185529, recv_flag = 0
+control_sensor_program, 317, 1545730767.185623, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.210728, recv_flag = 0
+control_sensor_program, 317, 1545730767.210790, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.235932, recv_flag = 0
+control_sensor_program, 317, 1545730767.236024, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.261135, recv_flag = 0
+control_sensor_program, 317, 1545730767.261220, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.286320, recv_flag = 0
+control_sensor_program, 317, 1545730767.286401, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.312358, recv_flag = 0
+control_sensor_program, 317, 1545730767.312476, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.337593, recv_flag = 0
+control_sensor_program, 317, 1545730767.337674, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.362748, recv_flag = 0
+control_sensor_program, 317, 1545730767.362793, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.387864, recv_flag = 0
+control_sensor_program, 317, 1545730767.387921, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.413030, recv_flag = 0
+control_sensor_program, 317, 1545730767.413121, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.438232, recv_flag = 0
+control_sensor_program, 317, 1545730767.438353, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730767.463415, recv_flag = 0
+control_sensor_program, 317, 1545730767.463490, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730767.476008, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730767.476096
+[UserInterface: 925, 1545730767.476126, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1427, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730767.480445
+[UserInterface: 918, 1545730767.495965, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_LEFT_ROTATE, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 1,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730767.496038
+[UserInterface: 925, 1545730767.496059, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_LEFT_ROTATE, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730768.436451
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730768.458913, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.484039, recv_flag = 0
+control_sensor_program, 317, 1545730768.484086, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.509194, recv_flag = 0
+control_sensor_program, 317, 1545730768.509292, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.534396, recv_flag = 0
+control_sensor_program, 317, 1545730768.534465, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.559583, recv_flag = 0
+control_sensor_program, 317, 1545730768.559620, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.584740, recv_flag = 0
+control_sensor_program, 317, 1545730768.584840, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.609954, recv_flag = 0
+control_sensor_program, 317, 1545730768.610014, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.635784, recv_flag = 0
+control_sensor_program, 317, 1545730768.635889, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.661407, recv_flag = 0
+control_sensor_program, 317, 1545730768.661501, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.686612, recv_flag = 0
+control_sensor_program, 317, 1545730768.686660, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.711845, recv_flag = 0
+control_sensor_program, 317, 1545730768.711912, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.736991, recv_flag = 0
+control_sensor_program, 317, 1545730768.737073, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.762180, recv_flag = 0
+control_sensor_program, 317, 1545730768.762234, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.787772, recv_flag = 0
+control_sensor_program, 317, 1545730768.787879, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.812985, recv_flag = 0
+control_sensor_program, 317, 1545730768.813053, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.838214, recv_flag = 0
+control_sensor_program, 317, 1545730768.838612, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.863722, recv_flag = 0
+control_sensor_program, 317, 1545730768.863798, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.888907, recv_flag = 0
+control_sensor_program, 317, 1545730768.888958, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.914079, recv_flag = 0
+control_sensor_program, 317, 1545730768.914156, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.939262, recv_flag = 0
+control_sensor_program, 317, 1545730768.939325, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730768.964404, recv_flag = 0
+control_sensor_program, 317, 1545730768.964441, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730768.977198, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730768.977301
+[UserInterface: 925, 1545730768.977325, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+control_sensor_program, 317, 1545730769.81769, _robo_mode = 0, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.106897, recv_flag = 0
+control_sensor_program, 317, 1545730769.106973, _robo_mode = 0, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.132065, recv_flag = 0
+control_sensor_program, 317, 1545730769.132151, _robo_mode = 0, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.157239, recv_flag = 0
+control_sensor_program, 317, 1545730769.157294, _robo_mode = 0, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.182377, recv_flag = 0
+control_sensor_program, 317, 1545730769.182452, _robo_mode = 0, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.207562, recv_flag = 0
+control_sensor_program, 317, 1545730769.207652, _robo_mode = 0, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.232754, recv_flag = 0
+control_sensor_program, 317, 1545730769.232827, _robo_mode = 0, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.257943, recv_flag = 0
+control_sensor_program, 317, 1545730769.258027, _robo_mode = 0, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.283118, recv_flag = 0
+control_sensor_program, 317, 1545730769.283197, _robo_mode = 0, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.308287, recv_flag = 0
+control_sensor_program, 317, 1545730769.308373, _robo_mode = 0, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.333482, recv_flag = 0
+control_sensor_program, 317, 1545730769.333574, _robo_mode = 0, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.358814, recv_flag = 0
+control_sensor_program, 317, 1545730769.358846, _robo_mode = 0, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.383987, recv_flag = 0
+control_sensor_program, 317, 1545730769.384178, _robo_mode = 0, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.409311, recv_flag = 0
+control_sensor_program, 317, 1545730769.409382, _robo_mode = 0, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.437731, recv_flag = 0
+control_sensor_program, 317, 1545730769.437836, _robo_mode = 0, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.462945, recv_flag = 0
+control_sensor_program, 317, 1545730769.463025, _robo_mode = 0, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.488126, recv_flag = 0
+control_sensor_program, 317, 1545730769.488160, _robo_mode = 0, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.513265, recv_flag = 0
+control_sensor_program, 317, 1545730769.513378, _robo_mode = 0, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.538484, recv_flag = 0
+control_sensor_program, 317, 1545730769.538587, _robo_mode = 0, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.563688, recv_flag = 0
+control_sensor_program, 317, 1545730769.563725, _robo_mode = 0, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730769.588813, recv_flag = 0
+control_sensor_program, 317, 1545730769.588913, _robo_mode = 0, try_times = 21
+[UserInterface: thread_navi_plan,1368, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730769.595327
+[UserInterface: 918, 1545730769.595368, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_FORWARD, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 0,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730769.595440
+[UserInterface: 925, 1545730769.595461, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_FORWARD, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730773.638303
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730773.664860, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730773.689990, recv_flag = 0
+control_sensor_program, 317, 1545730773.690052, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730773.716364, recv_flag = 0
+control_sensor_program, 317, 1545730773.716477, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730773.741595, recv_flag = 0
+control_sensor_program, 317, 1545730773.741664, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730773.766767, recv_flag = 0
+control_sensor_program, 317, 1545730773.766806, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730773.791904, recv_flag = 0
+control_sensor_program, 317, 1545730773.791978, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730773.817120, recv_flag = 0
+control_sensor_program, 317, 1545730773.817187, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730773.842303, recv_flag = 0
+control_sensor_program, 317, 1545730773.842404, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730773.867533, recv_flag = 0
+control_sensor_program, 317, 1545730773.867625, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730773.892694, recv_flag = 0
+control_sensor_program, 317, 1545730773.892750, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730773.917870, recv_flag = 0
+control_sensor_program, 317, 1545730773.918006, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730773.943217, recv_flag = 0
+control_sensor_program, 317, 1545730773.943294, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730773.968387, recv_flag = 0
+control_sensor_program, 317, 1545730773.968422, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730773.993521, recv_flag = 0
+control_sensor_program, 317, 1545730773.993603, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730774.18702, recv_flag = 0
+control_sensor_program, 317, 1545730774.18769, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730774.43884, recv_flag = 0
+control_sensor_program, 317, 1545730774.43966, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730774.69089, recv_flag = 0
+control_sensor_program, 317, 1545730774.69139, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730774.94235, recv_flag = 0
+control_sensor_program, 317, 1545730774.94290, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730774.119443, recv_flag = 0
+control_sensor_program, 317, 1545730774.119591, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730774.144714, recv_flag = 0
+control_sensor_program, 317, 1545730774.144773, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730774.169865, recv_flag = 0
+control_sensor_program, 317, 1545730774.169899, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730774.183427, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730774.183578
+[UserInterface: 925, 1545730774.183617, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1427, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730774.467259
+[UserInterface: 918, 1545730774.482912, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_LEFT_ROTATE, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 1,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730774.483025
+[UserInterface: 925, 1545730774.483047, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_LEFT_ROTATE, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730775.443509
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730775.465496, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.490621, recv_flag = 0
+control_sensor_program, 317, 1545730775.490678, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.515840, recv_flag = 0
+control_sensor_program, 317, 1545730775.515979, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.541106, recv_flag = 0
+control_sensor_program, 317, 1545730775.541150, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.566236, recv_flag = 0
+control_sensor_program, 317, 1545730775.566271, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.591375, recv_flag = 0
+control_sensor_program, 317, 1545730775.591455, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.616556, recv_flag = 0
+control_sensor_program, 317, 1545730775.616640, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.641786, recv_flag = 0
+control_sensor_program, 317, 1545730775.641894, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.667002, recv_flag = 0
+control_sensor_program, 317, 1545730775.667071, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.692177, recv_flag = 0
+control_sensor_program, 317, 1545730775.692238, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.717358, recv_flag = 0
+control_sensor_program, 317, 1545730775.717474, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.742598, recv_flag = 0
+control_sensor_program, 317, 1545730775.742661, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.767757, recv_flag = 0
+control_sensor_program, 317, 1545730775.767797, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.792900, recv_flag = 0
+control_sensor_program, 317, 1545730775.792996, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.818104, recv_flag = 0
+control_sensor_program, 317, 1545730775.818173, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.843247, recv_flag = 0
+control_sensor_program, 317, 1545730775.843358, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.868464, recv_flag = 0
+control_sensor_program, 317, 1545730775.868540, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.893640, recv_flag = 0
+control_sensor_program, 317, 1545730775.893698, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.918855, recv_flag = 0
+control_sensor_program, 317, 1545730775.919047, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.944174, recv_flag = 0
+control_sensor_program, 317, 1545730775.944249, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730775.969347, recv_flag = 0
+control_sensor_program, 317, 1545730775.969395, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730775.982153, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730775.982244
+[UserInterface: 925, 1545730775.982265, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1427, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730777.286525
+[UserInterface: 918, 1545730777.302173, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_LEFT_ROTATE, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 1,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730777.302271
+[UserInterface: 925, 1545730777.302293, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_LEFT_ROTATE, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730777.541732
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730777.563099, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.588229, recv_flag = 0
+control_sensor_program, 317, 1545730777.588306, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.613439, recv_flag = 0
+control_sensor_program, 317, 1545730777.613504, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.641924, recv_flag = 0
+control_sensor_program, 317, 1545730777.642029, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.667136, recv_flag = 0
+control_sensor_program, 317, 1545730777.667230, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.692338, recv_flag = 0
+control_sensor_program, 317, 1545730777.692403, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.717517, recv_flag = 0
+control_sensor_program, 317, 1545730777.717599, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.742707, recv_flag = 0
+control_sensor_program, 317, 1545730777.742774, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.767873, recv_flag = 0
+control_sensor_program, 317, 1545730777.767910, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.793476, recv_flag = 0
+control_sensor_program, 317, 1545730777.793588, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.818694, recv_flag = 0
+control_sensor_program, 317, 1545730777.818766, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.843830, recv_flag = 0
+control_sensor_program, 317, 1545730777.843903, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.869043, recv_flag = 0
+control_sensor_program, 317, 1545730777.869120, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.894220, recv_flag = 0
+control_sensor_program, 317, 1545730777.894281, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.919381, recv_flag = 0
+control_sensor_program, 317, 1545730777.919455, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.944566, recv_flag = 0
+control_sensor_program, 317, 1545730777.944653, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.969751, recv_flag = 0
+control_sensor_program, 317, 1545730777.969789, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730777.994929, recv_flag = 0
+control_sensor_program, 317, 1545730777.995075, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.20183, recv_flag = 0
+control_sensor_program, 317, 1545730778.20249, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.45359, recv_flag = 0
+control_sensor_program, 317, 1545730778.45451, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.70563, recv_flag = 0
+control_sensor_program, 317, 1545730778.70632, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730778.83206, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730778.83301
+[UserInterface: 925, 1545730778.83324, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+control_sensor_program, 317, 1545730778.193283, _robo_mode = 0, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.218499, recv_flag = 0
+control_sensor_program, 317, 1545730778.218570, _robo_mode = 0, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.243684, recv_flag = 0
+control_sensor_program, 317, 1545730778.243733, _robo_mode = 0, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.268857, recv_flag = 0
+control_sensor_program, 317, 1545730778.268929, _robo_mode = 0, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.294041, recv_flag = 0
+control_sensor_program, 317, 1545730778.294099, _robo_mode = 0, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.319304, recv_flag = 0
+control_sensor_program, 317, 1545730778.319381, _robo_mode = 0, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.344488, recv_flag = 0
+control_sensor_program, 317, 1545730778.344590, _robo_mode = 0, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.369707, recv_flag = 0
+control_sensor_program, 317, 1545730778.369741, _robo_mode = 0, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.394836, recv_flag = 0
+control_sensor_program, 317, 1545730778.394921, _robo_mode = 0, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.420022, recv_flag = 0
+control_sensor_program, 317, 1545730778.420098, _robo_mode = 0, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.445226, recv_flag = 0
+control_sensor_program, 317, 1545730778.445311, _robo_mode = 0, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.470413, recv_flag = 0
+control_sensor_program, 317, 1545730778.470493, _robo_mode = 0, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.495604, recv_flag = 0
+control_sensor_program, 317, 1545730778.495664, _robo_mode = 0, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.520772, recv_flag = 0
+control_sensor_program, 317, 1545730778.520851, _robo_mode = 0, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.545960, recv_flag = 0
+control_sensor_program, 317, 1545730778.546064, _robo_mode = 0, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.571114, recv_flag = 0
+control_sensor_program, 317, 1545730778.571155, _robo_mode = 0, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.596257, recv_flag = 0
+control_sensor_program, 317, 1545730778.596384, _robo_mode = 0, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.621487, recv_flag = 0
+control_sensor_program, 317, 1545730778.621546, _robo_mode = 0, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.646664, recv_flag = 0
+control_sensor_program, 317, 1545730778.646748, _robo_mode = 0, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.671854, recv_flag = 0
+control_sensor_program, 317, 1545730778.671913, _robo_mode = 0, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730778.697013, recv_flag = 0
+control_sensor_program, 317, 1545730778.697070, _robo_mode = 0, try_times = 21
+[UserInterface: thread_navi_plan,1368, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730778.703394
+[UserInterface: 918, 1545730778.703428, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_FORWARD, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 0,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730778.703501
+[UserInterface: 925, 1545730778.703531, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_FORWARD, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730791.355325
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730791.377950, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.403043, recv_flag = 0
+control_sensor_program, 317, 1545730791.403100, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.428204, recv_flag = 0
+control_sensor_program, 317, 1545730791.428282, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.453397, recv_flag = 0
+control_sensor_program, 317, 1545730791.453545, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.478626, recv_flag = 0
+control_sensor_program, 317, 1545730791.478713, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.503809, recv_flag = 0
+control_sensor_program, 317, 1545730791.503884, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.528953, recv_flag = 0
+control_sensor_program, 317, 1545730791.529040, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.554151, recv_flag = 0
+control_sensor_program, 317, 1545730791.554207, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.579289, recv_flag = 0
+control_sensor_program, 317, 1545730791.579345, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.604442, recv_flag = 0
+control_sensor_program, 317, 1545730791.604517, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.629607, recv_flag = 0
+control_sensor_program, 317, 1545730791.629665, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.655078, recv_flag = 0
+control_sensor_program, 317, 1545730791.655162, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.680276, recv_flag = 0
+control_sensor_program, 317, 1545730791.680327, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.705410, recv_flag = 0
+control_sensor_program, 317, 1545730791.705465, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.730573, recv_flag = 0
+control_sensor_program, 317, 1545730791.730650, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.755763, recv_flag = 0
+control_sensor_program, 317, 1545730791.755839, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.780986, recv_flag = 0
+control_sensor_program, 317, 1545730791.781107, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.806222, recv_flag = 0
+control_sensor_program, 317, 1545730791.806299, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.831403, recv_flag = 0
+control_sensor_program, 317, 1545730791.831479, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.856581, recv_flag = 0
+control_sensor_program, 317, 1545730791.856658, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730791.881744, recv_flag = 0
+control_sensor_program, 317, 1545730791.881786, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730791.894456, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730791.894541
+[UserInterface: 925, 1545730791.894562, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+control_sensor_program, 317, 1545730792.539694, _robo_mode = 0, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.564840, recv_flag = 0
+control_sensor_program, 317, 1545730792.564876, _robo_mode = 0, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.589997, recv_flag = 0
+control_sensor_program, 317, 1545730792.590074, _robo_mode = 0, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.615181, recv_flag = 0
+control_sensor_program, 317, 1545730792.615284, _robo_mode = 0, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.640388, recv_flag = 0
+control_sensor_program, 317, 1545730792.640463, _robo_mode = 0, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.665650, recv_flag = 0
+control_sensor_program, 317, 1545730792.665757, _robo_mode = 0, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.690913, recv_flag = 0
+control_sensor_program, 317, 1545730792.690978, _robo_mode = 0, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.716411, recv_flag = 0
+control_sensor_program, 317, 1545730792.716523, _robo_mode = 0, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.741637, recv_flag = 0
+control_sensor_program, 317, 1545730792.741690, _robo_mode = 0, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.766798, recv_flag = 0
+control_sensor_program, 317, 1545730792.766838, _robo_mode = 0, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.791925, recv_flag = 0
+control_sensor_program, 317, 1545730792.792002, _robo_mode = 0, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.817210, recv_flag = 0
+control_sensor_program, 317, 1545730792.817298, _robo_mode = 0, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.842399, recv_flag = 0
+control_sensor_program, 317, 1545730792.842466, _robo_mode = 0, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.867571, recv_flag = 0
+control_sensor_program, 317, 1545730792.867654, _robo_mode = 0, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.892756, recv_flag = 0
+control_sensor_program, 317, 1545730792.892816, _robo_mode = 0, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.917926, recv_flag = 0
+control_sensor_program, 317, 1545730792.918002, _robo_mode = 0, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.943102, recv_flag = 0
+control_sensor_program, 317, 1545730792.943174, _robo_mode = 0, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.968281, recv_flag = 0
+control_sensor_program, 317, 1545730792.968328, _robo_mode = 0, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730792.993474, recv_flag = 0
+control_sensor_program, 317, 1545730792.993556, _robo_mode = 0, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730793.18662, recv_flag = 0
+control_sensor_program, 317, 1545730793.18744, _robo_mode = 0, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730793.43855, recv_flag = 0
+control_sensor_program, 317, 1545730793.43909, _robo_mode = 0, try_times = 21
+[UserInterface: thread_navi_plan,1368, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730793.50370
+[UserInterface: 918, 1545730793.50499, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_FORWARD, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 0,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730793.50580
+[UserInterface: 925, 1545730793.50603, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_FORWARD, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730794.428248
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730794.455695, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.480852, recv_flag = 0
+control_sensor_program, 317, 1545730794.480930, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.505994, recv_flag = 0
+control_sensor_program, 317, 1545730794.506053, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.531162, recv_flag = 0
+control_sensor_program, 317, 1545730794.531238, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.556360, recv_flag = 0
+control_sensor_program, 317, 1545730794.556422, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.581565, recv_flag = 0
+control_sensor_program, 317, 1545730794.581662, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.606774, recv_flag = 0
+control_sensor_program, 317, 1545730794.606846, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.631914, recv_flag = 0
+control_sensor_program, 317, 1545730794.631971, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.657107, recv_flag = 0
+control_sensor_program, 317, 1545730794.657221, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.682330, recv_flag = 0
+control_sensor_program, 317, 1545730794.682367, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.707451, recv_flag = 0
+control_sensor_program, 317, 1545730794.707508, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.732615, recv_flag = 0
+control_sensor_program, 317, 1545730794.732672, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.757728, recv_flag = 0
+control_sensor_program, 317, 1545730794.757801, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.782986, recv_flag = 0
+control_sensor_program, 317, 1545730794.783067, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.808174, recv_flag = 0
+control_sensor_program, 317, 1545730794.808251, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.833372, recv_flag = 0
+control_sensor_program, 317, 1545730794.833440, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.858601, recv_flag = 0
+control_sensor_program, 317, 1545730794.858745, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.883834, recv_flag = 0
+control_sensor_program, 317, 1545730794.883872, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.908921, recv_flag = 0
+control_sensor_program, 317, 1545730794.908976, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.934099, recv_flag = 0
+control_sensor_program, 317, 1545730794.934171, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730794.959297, recv_flag = 0
+control_sensor_program, 317, 1545730794.959369, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730794.971903, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730794.971987
+[UserInterface: 925, 1545730794.972007, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1427, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730795.415485
+[UserInterface: 918, 1545730795.431148, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_LEFT_ROTATE, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 1,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730795.431269
+[UserInterface: 925, 1545730795.431290, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_LEFT_ROTATE, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730799.965576
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730799.991558, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.16660, recv_flag = 0
+control_sensor_program, 317, 1545730800.16743, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.41844, recv_flag = 0
+control_sensor_program, 317, 1545730800.41923, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.67059, recv_flag = 0
+control_sensor_program, 317, 1545730800.67152, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.92253, recv_flag = 0
+control_sensor_program, 317, 1545730800.92297, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.119926, recv_flag = 0
+control_sensor_program, 317, 1545730800.120029, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.145143, recv_flag = 0
+control_sensor_program, 317, 1545730800.145218, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.170325, recv_flag = 0
+control_sensor_program, 317, 1545730800.170378, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.195575, recv_flag = 0
+control_sensor_program, 317, 1545730800.195646, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.220730, recv_flag = 0
+control_sensor_program, 317, 1545730800.220785, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.245877, recv_flag = 0
+control_sensor_program, 317, 1545730800.245958, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.271097, recv_flag = 0
+control_sensor_program, 317, 1545730800.271196, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.296307, recv_flag = 0
+control_sensor_program, 317, 1545730800.296393, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.321518, recv_flag = 0
+control_sensor_program, 317, 1545730800.321592, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.346695, recv_flag = 0
+control_sensor_program, 317, 1545730800.346767, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.371867, recv_flag = 0
+control_sensor_program, 317, 1545730800.371945, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.397054, recv_flag = 0
+control_sensor_program, 317, 1545730800.397126, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.422230, recv_flag = 0
+control_sensor_program, 317, 1545730800.422280, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.447381, recv_flag = 0
+control_sensor_program, 317, 1545730800.447446, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.472569, recv_flag = 0
+control_sensor_program, 317, 1545730800.472672, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730800.497783, recv_flag = 0
+control_sensor_program, 317, 1545730800.497854, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730800.510442, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730800.510525
+[UserInterface: 925, 1545730800.510546, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1464, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730800.974060
+[UserInterface: 918, 1545730800.989723, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_RIGHT_ROTATE, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 2,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730800.989875
+[UserInterface: 925, 1545730800.989901, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_RIGHT_ROTATE, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730801.329226
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730801.351348, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.376518, recv_flag = 0
+control_sensor_program, 317, 1545730801.376576, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.401680, recv_flag = 0
+control_sensor_program, 317, 1545730801.401725, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.426813, recv_flag = 0
+control_sensor_program, 317, 1545730801.426873, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.453719, recv_flag = 0
+control_sensor_program, 317, 1545730801.453819, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.478933, recv_flag = 0
+control_sensor_program, 317, 1545730801.479009, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.504101, recv_flag = 0
+control_sensor_program, 317, 1545730801.504145, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.529249, recv_flag = 0
+control_sensor_program, 317, 1545730801.529324, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.554428, recv_flag = 0
+control_sensor_program, 317, 1545730801.554512, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.579616, recv_flag = 0
+control_sensor_program, 317, 1545730801.579674, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.604780, recv_flag = 0
+control_sensor_program, 317, 1545730801.604829, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.629908, recv_flag = 0
+control_sensor_program, 317, 1545730801.629953, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.655067, recv_flag = 0
+control_sensor_program, 317, 1545730801.655203, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.680318, recv_flag = 0
+control_sensor_program, 317, 1545730801.680403, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.705452, recv_flag = 0
+control_sensor_program, 317, 1545730801.705500, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.730605, recv_flag = 0
+control_sensor_program, 317, 1545730801.730678, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.755788, recv_flag = 0
+control_sensor_program, 317, 1545730801.755845, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.780957, recv_flag = 0
+control_sensor_program, 317, 1545730801.781027, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.806134, recv_flag = 0
+control_sensor_program, 317, 1545730801.806208, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.831321, recv_flag = 0
+control_sensor_program, 317, 1545730801.831379, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730801.856624, recv_flag = 0
+control_sensor_program, 317, 1545730801.856712, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730801.869334, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730801.869414
+[UserInterface: 925, 1545730801.869433, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+control_sensor_program, 317, 1545730802.93357, _robo_mode = 0, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.121180, recv_flag = 0
+control_sensor_program, 317, 1545730802.121225, _robo_mode = 0, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.146283, recv_flag = 0
+control_sensor_program, 317, 1545730802.146400, _robo_mode = 0, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.171478, recv_flag = 0
+control_sensor_program, 317, 1545730802.171515, _robo_mode = 0, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.196603, recv_flag = 0
+control_sensor_program, 317, 1545730802.196680, _robo_mode = 0, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.221781, recv_flag = 0
+control_sensor_program, 317, 1545730802.221815, _robo_mode = 0, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.246908, recv_flag = 0
+control_sensor_program, 317, 1545730802.246956, _robo_mode = 0, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.272057, recv_flag = 0
+control_sensor_program, 317, 1545730802.272149, _robo_mode = 0, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.297260, recv_flag = 0
+control_sensor_program, 317, 1545730802.297332, _robo_mode = 0, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.322439, recv_flag = 0
+control_sensor_program, 317, 1545730802.322478, _robo_mode = 0, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.347578, recv_flag = 0
+control_sensor_program, 317, 1545730802.347696, _robo_mode = 0, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.372799, recv_flag = 0
+control_sensor_program, 317, 1545730802.372838, _robo_mode = 0, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.397946, recv_flag = 0
+control_sensor_program, 317, 1545730802.398030, _robo_mode = 0, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.423277, recv_flag = 0
+control_sensor_program, 317, 1545730802.423335, _robo_mode = 0, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.448443, recv_flag = 0
+control_sensor_program, 317, 1545730802.448494, _robo_mode = 0, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.473600, recv_flag = 0
+control_sensor_program, 317, 1545730802.473670, _robo_mode = 0, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.498770, recv_flag = 0
+control_sensor_program, 317, 1545730802.498829, _robo_mode = 0, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.525490, recv_flag = 0
+control_sensor_program, 317, 1545730802.525555, _robo_mode = 0, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.550626, recv_flag = 0
+control_sensor_program, 317, 1545730802.550696, _robo_mode = 0, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.575741, recv_flag = 0
+control_sensor_program, 317, 1545730802.575796, _robo_mode = 0, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730802.600886, recv_flag = 0
+control_sensor_program, 317, 1545730802.600968, _robo_mode = 0, try_times = 21
+[UserInterface: thread_navi_plan,1368, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730802.607294
+[UserInterface: 918, 1545730802.607327, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_FORWARD, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 0,  power:69,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730802.607395
+[UserInterface: 925, 1545730802.607416, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_FORWARD, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+update_app_power_consumption, 4753] power_consumption: 68, t = 1545730817.952241
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730844.18633
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730844.41890, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.67039, recv_flag = 0
+control_sensor_program, 317, 1545730844.67095, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.92206, recv_flag = 0
+control_sensor_program, 317, 1545730844.92263, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.117363, recv_flag = 0
+control_sensor_program, 317, 1545730844.117418, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.142493, recv_flag = 0
+control_sensor_program, 317, 1545730844.142588, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.167694, recv_flag = 0
+control_sensor_program, 317, 1545730844.167739, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.192839, recv_flag = 0
+control_sensor_program, 317, 1545730844.192900, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.218007, recv_flag = 0
+control_sensor_program, 317, 1545730844.218081, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.243188, recv_flag = 0
+control_sensor_program, 317, 1545730844.243256, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.268353, recv_flag = 0
+control_sensor_program, 317, 1545730844.268413, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.293555, recv_flag = 0
+control_sensor_program, 317, 1545730844.293740, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.318862, recv_flag = 0
+control_sensor_program, 317, 1545730844.318943, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.344059, recv_flag = 0
+control_sensor_program, 317, 1545730844.344165, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.369269, recv_flag = 0
+control_sensor_program, 317, 1545730844.369314, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.394408, recv_flag = 0
+control_sensor_program, 317, 1545730844.394465, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.419551, recv_flag = 0
+control_sensor_program, 317, 1545730844.419659, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.444768, recv_flag = 0
+control_sensor_program, 317, 1545730844.444839, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.469933, recv_flag = 0
+control_sensor_program, 317, 1545730844.469989, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.495125, recv_flag = 0
+control_sensor_program, 317, 1545730844.495265, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.520367, recv_flag = 0
+control_sensor_program, 317, 1545730844.520425, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730844.545531, recv_flag = 0
+control_sensor_program, 317, 1545730844.545617, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730844.558617, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:68,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730844.558783
+[UserInterface: 925, 1545730844.558841, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+go_to_sleep, 95, go to sleep, 1545730854.527715, time = 10 seconds, plate_mode = 80 called at969
+control_sensor_program, 317, 1545730855.157450, _robo_mode = 0, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.182574, recv_flag = 0
+control_sensor_program, 317, 1545730855.182620, _robo_mode = 0, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.207714, recv_flag = 0
+control_sensor_program, 317, 1545730855.207743, _robo_mode = 0, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.232845, recv_flag = 0
+control_sensor_program, 317, 1545730855.232917, _robo_mode = 0, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.258021, recv_flag = 0
+control_sensor_program, 317, 1545730855.258100, _robo_mode = 0, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.283254, recv_flag = 0
+control_sensor_program, 317, 1545730855.283432, _robo_mode = 0, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.308561, recv_flag = 0
+control_sensor_program, 317, 1545730855.308597, _robo_mode = 0, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.333690, recv_flag = 0
+control_sensor_program, 317, 1545730855.333745, _robo_mode = 0, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.358845, recv_flag = 0
+control_sensor_program, 317, 1545730855.358924, _robo_mode = 0, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.384027, recv_flag = 0
+control_sensor_program, 317, 1545730855.384077, _robo_mode = 0, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.409153, recv_flag = 0
+control_sensor_program, 317, 1545730855.409181, _robo_mode = 0, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.434288, recv_flag = 0
+control_sensor_program, 317, 1545730855.434343, _robo_mode = 0, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.459452, recv_flag = 0
+control_sensor_program, 317, 1545730855.459514, _robo_mode = 0, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.484625, recv_flag = 0
+control_sensor_program, 317, 1545730855.484711, _robo_mode = 0, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.509812, recv_flag = 0
+control_sensor_program, 317, 1545730855.509853, _robo_mode = 0, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.534950, recv_flag = 0
+control_sensor_program, 317, 1545730855.535008, _robo_mode = 0, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.560130, recv_flag = 0
+control_sensor_program, 317, 1545730855.560242, _robo_mode = 0, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.585342, recv_flag = 0
+control_sensor_program, 317, 1545730855.585403, _robo_mode = 0, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.610450, recv_flag = 0
+control_sensor_program, 317, 1545730855.610478, _robo_mode = 0, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.635577, recv_flag = 0
+control_sensor_program, 317, 1545730855.635652, _robo_mode = 0, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730855.660750, recv_flag = 0
+control_sensor_program, 317, 1545730855.660817, _robo_mode = 0, try_times = 21
+[UserInterface: thread_navi_plan,1368, Mode switch to: ROBOT_STATUS_HANDLE @ 1545730855.667164
+[UserInterface: 918, 1545730855.667195, pre_robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_FORWARD, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 10,  direction: 0,  power:68,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730855.667273
+[UserInterface: 925, 1545730855.667293, *robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_FORWARD, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0
+update_app_power_consumption, 4753] power_consumption: 67, t = 1545730870.604084
+[UserInterface: thread_navi_plan,1576, Mode switch to: ROBOT_STATUS_STOPPED @ 1545730886.58303
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[PlanAuto.SetStop:852] AutoStop  stop
+control_sensor_program, 317, 1545730886.79637, _robo_mode = 3, try_times = 1
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.104760, recv_flag = 0
+control_sensor_program, 317, 1545730886.104836, _robo_mode = 3, try_times = 2
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.129943, recv_flag = 0
+control_sensor_program, 317, 1545730886.130000, _robo_mode = 3, try_times = 3
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.155099, recv_flag = 0
+control_sensor_program, 317, 1545730886.155155, _robo_mode = 3, try_times = 4
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.180289, recv_flag = 0
+control_sensor_program, 317, 1545730886.180339, _robo_mode = 3, try_times = 5
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.205406, recv_flag = 0
+control_sensor_program, 317, 1545730886.205480, _robo_mode = 3, try_times = 6
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.230605, recv_flag = 0
+control_sensor_program, 317, 1545730886.230697, _robo_mode = 3, try_times = 7
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.255802, recv_flag = 0
+control_sensor_program, 317, 1545730886.255892, _robo_mode = 3, try_times = 8
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.280990, recv_flag = 0
+control_sensor_program, 317, 1545730886.281059, _robo_mode = 3, try_times = 9
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.306165, recv_flag = 0
+control_sensor_program, 317, 1545730886.306240, _robo_mode = 3, try_times = 10
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.331324, recv_flag = 0
+control_sensor_program, 317, 1545730886.331380, _robo_mode = 3, try_times = 11
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.356486, recv_flag = 0
+control_sensor_program, 317, 1545730886.356517, _robo_mode = 3, try_times = 12
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.381655, recv_flag = 0
+control_sensor_program, 317, 1545730886.381840, _robo_mode = 3, try_times = 13
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.406975, recv_flag = 0
+control_sensor_program, 317, 1545730886.407054, _robo_mode = 3, try_times = 14
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.432167, recv_flag = 0
+control_sensor_program, 317, 1545730886.432265, _robo_mode = 3, try_times = 15
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.457387, recv_flag = 0
+control_sensor_program, 317, 1545730886.457450, _robo_mode = 3, try_times = 16
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.482499, recv_flag = 0
+control_sensor_program, 317, 1545730886.482552, _robo_mode = 3, try_times = 17
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.507638, recv_flag = 0
+control_sensor_program, 317, 1545730886.507768, _robo_mode = 3, try_times = 18
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.532870, recv_flag = 0
+control_sensor_program, 317, 1545730886.532913, _robo_mode = 3, try_times = 19
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.558016, recv_flag = 0
+control_sensor_program, 317, 1545730886.558072, _robo_mode = 3, try_times = 20
+vslam_recvd_robot_mode_from_plan, 1994, 1545730886.583173, recv_flag = 0
+control_sensor_program, 317, 1545730886.583246, _robo_mode = 3, try_times = 21
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+resetSideDock_Lib, 4953, reset side dock
+[UserInterface: 918, 1545730886.595875, pre_robot_status: ROBOT_STATUS_HANDLE, cmd_from_user:COMMAND_STOP, pre_auto_status:2, pre_return_status:0
+[ #### update device status: update_app_status, 4703] action status: 0,  direction: 4,  power:67,  fan_power_level:0,  new_map_count: 4,  time_hour: 0,  time_minute: 0,  areas: 0,  fault_code: 0, t = 1545730886.595968
+[UserInterface: 925, 1545730886.595989, *robot_status: ROBOT_STATUS_STOPPED, cmd_from_user:COMMAND_STOP, AnkoGetAutoStatus:2, AnkoGetReturnStatus:0

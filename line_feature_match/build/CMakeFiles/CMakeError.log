@@ -1,0 +1,51 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/leather/lxdata/leather_repertory/leather_tests/opencv_test/line_feature_match/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23b52/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23b52.dir/build.make CMakeFiles/cmTC_23b52.dir/build
+make[1]: 正在进入目录 `/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/line_feature_match/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23b52.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_23b52.dir/CheckSymbolExists.c.o   -c /home/leather/lxdata/leather_repertory/leather_tests/opencv_test/line_feature_match/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_23b52
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23b52.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_23b52.dir/CheckSymbolExists.c.o  -o cmTC_23b52 
+CMakeFiles/cmTC_23b52.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_23b52] 错误 1
+make[1]:正在离开目录 `/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/line_feature_match/build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_23b52/fast] 错误 2
+
+File /home/leather/lxdata/leather_repertory/leather_tests/opencv_test/line_feature_match/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/leather/lxdata/leather_repertory/leather_tests/opencv_test/line_feature_match/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c40fa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c40fa.dir/build.make CMakeFiles/cmTC_c40fa.dir/build
+make[1]: 正在进入目录 `/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/line_feature_match/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c40fa.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c40fa.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c40fa
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c40fa.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c40fa.dir/CheckFunctionExists.c.o  -o cmTC_c40fa -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_c40fa] 错误 1
+make[1]:正在离开目录 `/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/line_feature_match/build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_c40fa/fast] 错误 2
+
+

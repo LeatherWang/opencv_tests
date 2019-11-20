@@ -1,0 +1,16 @@
+%YAML:1.0
+---
+model_type: PINHOLE
+camera_name: camera
+image_width: 800
+image_height: 600
+
+Camera.fx: 616.745642
+Camera.fy: 617.240272
+Camera.cx: 373.561283
+Camera.cy: 239.733823
+
+Camera.k1: -0.444634
+Camera.k2: 0.209667
+Camera.p1: 0.000618
+Camera.p2: 0.000779

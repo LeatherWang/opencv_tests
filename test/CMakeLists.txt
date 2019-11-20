@@ -1,0 +1,6 @@
+project(test)    
+find_package(OpenCV REQUIRED)  
+message(STATUS "||||||||||||" ${OpenCV_INCLUDE_DIRS})  
+add_executable(test test)    
+target_link_libraries(test ${OpenCV_LIBS})    
+cmake_minimum_required(VERSION 2.8)  

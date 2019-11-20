@@ -1,0 +1,3 @@
+/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/otsu_segement/build/CMakeFiles/rebuild_cache.dir
+/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/otsu_segement/build/CMakeFiles/edit_cache.dir
+/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/otsu_segement/build/CMakeFiles/otsu_seg.dir

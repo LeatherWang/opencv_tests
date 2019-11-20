@@ -1,0 +1,3 @@
+/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/mat/CMakeFiles/rebuild_cache.dir
+/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/mat/CMakeFiles/edit_cache.dir
+/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/mat/CMakeFiles/mymat.dir

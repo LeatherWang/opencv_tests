@@ -1,0 +1,23 @@
+%YAML:1.0
+    
+# Camera calibration and distortion parameters (OpenCV)
+# Camera Number: ../../T01-new/yifan/images
+Camera.width: 640
+Camera.height: 360
+Camera.fx: 248.723
+Camera.fy: 248.057
+Camera.cx: 303.503
+Camera.cy: 193.814
+Camera.k1: 0.439884
+Camera.k2: 0.102483
+Camera.p1: -0.362197
+Camera.p2: 0.134177
+
+Camera.fps: 8
+Camera.UseFishEyeModel: 1
+
+# camera-imu frame transformation, Pi = Tbc * Pc 
+Camera.Tbc:
+ [1,0,0,65,
+  0,1,0,0,
+  0,0,1,0]

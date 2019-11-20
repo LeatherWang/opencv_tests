@@ -1,0 +1,6 @@
+/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/aruco_detect/build/CMakeFiles/edit_cache.dir
+/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/aruco_detect/build/CMakeFiles/create_marker.dir
+/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/aruco_detect/build/CMakeFiles/rebuild_cache.dir
+/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/aruco_detect/build/CMakeFiles/create_board.dir
+/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/aruco_detect/build/CMakeFiles/detect_board.dir
+/home/leather/lxdata/leather_repertory/leather_tests/opencv_test/aruco_detect/build/CMakeFiles/detect_maker.dir

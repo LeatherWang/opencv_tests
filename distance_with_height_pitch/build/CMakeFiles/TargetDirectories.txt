@@ -1,0 +1,3 @@
+/home/leather/leather_repertory/leather_tests/opencv_test/distance_with_height_pitch/build/CMakeFiles/rebuild_cache.dir
+/home/leather/leather_repertory/leather_tests/opencv_test/distance_with_height_pitch/build/CMakeFiles/edit_cache.dir
+/home/leather/leather_repertory/leather_tests/opencv_test/distance_with_height_pitch/build/CMakeFiles/distance.dir
